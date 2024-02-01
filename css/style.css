@@ -1,0 +1,200 @@
+body {
+    padding-top: 25px;
+
+    background :  radial-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.8)),url(https://assets.nflxext.com/ffe/siteui/vlv3/e89c9679-2f5f-491d-924c-c58924a8ee4b/8ec27a1d-02ce-4489-b320-a95106906f5d/IN-en-20221121-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+    background-size: 1750px 800px;
+    background-repeat: no-repeat;
+    background-color: black;
+    color: white;
+  
+}
+nav {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding-bottom: 5vw;
+    padding-top: 0%;
+   
+}
+
+
+nav .img  img {
+    width: 30%;
+    margin-top: -20px;
+
+   
+   
+
+}
+
+nav .btn {
+    
+    
+    padding-left: 7vw;
+    padding-right: 1vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.btn .eng {
+    width: 110px;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    font-size: 19px;
+    border: 2px solid white;
+    cursor: pointer;
+    margin-inline: 22px;
+    margin-left: 40px;
+    padding-right: 5%;
+    border-radius: 10px;
+    padding-left: 5%;
+
+
+
+}
+.btn .eng:hover {
+    background-color: rgb(231, 74, 74);
+}
+
+.btn .sign:hover {
+    background-color: rgb(129, 14, 14);
+}
+.btn .sign {
+    width: 110px;
+    height: 40px;
+    background-color:red;
+    color: white;
+    font-size: 19px;
+   
+    padding-left: 5%;
+    border-color: transparent;
+    padding-right: 5%;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main {
+    text-align: center;
+}
+.main h1 {
+    text-align: center;
+    font-size: 55px;
+    
+}
+
+.main h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: -20px;
+    
+}
+
+.main p {
+    text-align: center;
+    font-size: 25px;
+    
+}
+
+
+ .input input {
+   background-color: transparent;
+    width: 400px;
+    height: 48px;
+    border: 1px solid white;
+    font-size: 22px;
+    color: white;
+    cursor:text;
+    border-radius: 6px;
+    
+ }
+
+ .input button:hover{
+    background-color: rgb(129, 14, 14) ;
+ }
+
+ .input button {
+    align-items: center;
+    text-align: center;
+    width: 250px;
+    height: 55px;
+    background-color: rgb(225,11, 11);
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    
+    border-radius: 6px;
+    margin-left: 5px;
+
+ }
+
+ .first {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    margin-top: 300px;
+    padding: 33px;
+    border-top: 10px solid gray;
+   
+}
+
+.first img {
+    width: 40%;
+
+}
+.first h1{
+    font-size: 64px;
+}
+
+.first p {
+    font-size: 42px;
+}
+ .buttons {
+    text-align: center;
+    margin-top: 33px;
+    border-top: 10px solid gray;
+ }
+
+.buttons h1 {
+ text-align: center;
+ margin-top: 73px;
+ font-size: 44px;
+}
+
+.buttons button {
+    width: 1300px;
+    height: 80px;
+    font-size: 22px;
+    background-color: rgb(69, 69, 69);
+    color: white;
+    margin-top: 11px;
+    text-align: start;
+    font-size: 33px;
+
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    padding: 44px;
+    border-top: 10px solid gray;
+    margin-top: 55px;
+    cursor: pointer;
+    font-size: larger;
+
+}
+
+
+.buttons button:hover {
+    background-color: gray;
+}
+
+
+
+
